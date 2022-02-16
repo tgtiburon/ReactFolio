@@ -1,80 +1,100 @@
-# Budget_Anywhere
+# ReactFolio
 
-
-
-Video of app in action:
-
-
-GET routes to return all: 1. categories 2. products, 3. tags
-
-![](budget_anywhere-mockup.PNG)
-
-
+![](20-react-homework-demo-01.gif)
 
 ## User Story
-AS AN avid traveler
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling 
+     AS AN employer looking for candidates with experience building single-page applications
+     I WANT to view a potential employee's deployed React portfolio of work samples
+     SO THAT I can assess whether they're a good candidate for an open position
+
 
 
 ## Acceptance Criteria
 
-- []    GIVEN a budget tracker without an internet connection
-        WHEN the user inputs an expense or deposit
-        THEN they will receive a notification that they have added an expense or deposit
+- []    GIVEN a single-page application portfolio for a web developer
+        WHEN I load the portfolio
+        THEN I am presented with a page containing a header, a section for content, and a footer
+   
 
-- []    WHEN the user reestablishes an internet connection
-        THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
+- []    WHEN I view the header
+        THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
+
+
+- []    WHEN I view the navigation titles
+        THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+   
+
+- []    WHEN I click on a navigation title
+        THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+
+
+- []    WHEN I load the portfolio the first time
+        THEN the About Me title and section are selected by default
+ 
+
+- []    WHEN I am presented with the About Me section
+        THEN I see a recent photo or avatar of the developer and a short bio about them
+
+
+- []    WHEN I am presented with the Portfolio section
+        THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
+
+
+- []    WHEN I am presented with the Contact section
+        THEN I see a contact form with fields for a name, an email address, and a message
+
+
+- []    WHEN I move my cursor out of one of the form fields without entering text
+        THEN I receive a notification that this field is required  
+
+- []    WHEN I enter text into the email address field
+        THEN I receive a notification if I have entered an invalid email address
+
+
+- []    WHEN I am presented with the Resume section
+        THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+  
+
+- []    WHEN I view the footer
+        THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+
+
 
 
 ## Getting Started:
 
 
-- []    Use IndexedDB to add offline functionality
-        (review 18.4 lesson)
+- []    Single `Header` component appears on multiple pages
 
-- []    Add a service worker
-        (review 19.4 lesson)
+- []    Single `Navigation` component within the header that will be used to conditionally render the different sections of your portfolio  
 
-- []    idb.js added to `public/js/`   
+- []    Single `Project` component that will be used multiple times in the Portfolio section   
             
-- []    Add service worker to the route of the `public/` directory
+- []    Single `Footer` component that appears on multiple pages 
 
-## Once you updated the app it should:
+- []    NOTE: Your contact form can be non-functional until we learn to connect it in the next couple of weeks
 
-- []    Deposit while offline
+## Projects
 
-- []    Enter expenses offline
+- []    An image of the deployed application (gif of screenshot)
 
-- []    offline entries added once the app is brought online
+- []    The title of the project
+
+- []    A link to deployed application
+
+- []    A link to the gitHub repository
 
 
-## Web Manifest
+## Design
 
-- []    mobile first app so include a (manually made) manifest.json which includes:
+- []   Mobile first design
 
-- []    name  
+- []   Choose a color palatte
 
-- []    short_name
+- []   Make sure font size is large enough to read and that the colors don't cause eye strain
 
-- []    icons
+- []  Consider using animations and React component libraries.(Not part of the grade) 
 
-- []    theme_color
-
-- []    background_color
-
-- []    start_url
-
-- []    display
-
-- []    Add manifest.json to the root directory of the `public/` directory
-        (review 19.5 Lesson)
-
-## Deploy to Heroku
-
-- []    MongoDB Atlas (review 18.5 Lesson)
-
-- []    Add Mongoose Validation
 
 
 
@@ -85,13 +105,18 @@ SO THAT my account balance is accurate when I am traveling
 
 
 ## Technical Acceptance Criteria: 40%
-- []    Includes Service Worker
+- []   Application must use React to render content
 
-- []    Includes Web Manifest
+- []    Application has a single `Header` component that appears on multiple pages, with a `Navigation` commponent within it that's used to conditionally render About Me, Portfolio, Contact, and Resume sections
 
-- []    IndexedDB for offline functionality
+- []    Application has a single `Project` component that's used multiple times in the portfolio section.
 
-- []   Deployed to Heroku
+- []  Application has a single `Footer` component that appears on multiple pages.
+
+- []  Must be deployed to github pages   
+
+  
+
 
 ## Deployment: 32%
 
@@ -107,6 +132,11 @@ SO THAT my account balance is accurate when I am traveling
 
 ## Application Quality: 15%
 - []    User experience is intuitive and easy to navigate.
+
+- []   User interface style is clean on polished
+
+- []    Application uses a color scheme other than default bootstrap
+
 
 
 ## Repository Quality: 13%
