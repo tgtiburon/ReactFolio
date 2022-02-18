@@ -83,47 +83,31 @@ function ProjectList({ category }) {
         "This project allows a small company to use a MySQL Database to keep track of their staff.  It uses MySQL2, Inquirer, and Console.table to function.  It demonstrates the management of a Database from setting up of the db, its schema, and its seeding.",
     },
     {
-      name: "",
-      category: "food",
+      name: "Team Tracker",
+      category: "JS, NODE",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "Team tracker is a node.js  command-line application that will take in input and generate cards for each team member on a development team.  I designed this app using an Employee class from which Manager, Engineer, and Intern classes inherit.  These classes have both properties and methods.  Each employee card lists the employee ID and their email.  The email is clickable and will open  your email app when clicked.  Depending on the job role it also displays different information.  The manager displays his/her office number.  The engineers also display a clickable link that will take you to their github page in another tab. And lastly interns display the school that they are attending.",
     },
     {
-      name: "",
-      category: "food",
+      name: "Password Generator",
+      category: "JS",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "A website that offers to create a custom password for the user.",
     },
     {
-      name: "Green river",
-      category: "landscape",
+      name: "Challenge-1",
+      category: "SEO HTML",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "I was given the task of taking an index.html and a style.css which created a functional website for a company called Horiseon. The website was pleasing to look at but was lacking in how the html and css was structured for both readability and for accessibity. I replaced many of the non-semantic elements with semantic ones and added other elements to make the website more accessible for users who would be using a reader to access the site. In addition to this I reorganized the html and css to be in a more logical order as well as be more efficient by consolodating classes that were reusing code.",
     },
     {
-      name: "Docks",
-      category: "landscape",
+      name: "Git-it-Done",
+      category: "JS HTML",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
+        "A website allows the user to search for open issues either for an individual user on github, or to search by three popular languages.",
     },
-    {
-      name: "Panoramic village by sea",
-      category: "landscape",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-    },
-    {
-      name: "Domestic landscape",
-      category: "landscape",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-    },
-    {
-      name: "Park bench",
-      category: "landscape",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie",
-    },
+   
+    
   ]);
   // select only the current category
   const currentProjectss = projects.filter(
