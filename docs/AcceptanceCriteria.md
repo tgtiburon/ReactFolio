@@ -89,7 +89,7 @@
 
 - []   Mobile first design
 
-- []   Choose a color palatte
+- []   Choose a color palette
 
 - []   Make sure font size is large enough to read and that the colors don't cause eye strain
 
