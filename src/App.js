@@ -1,23 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import ContactForm from "./components/Contact";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Navigation from "./components/Navigation";
+import Project from "./components/Project";
+//import ProjectList from "./components/Projectlist";
 
 function App() {
+  const [categories] = useState([
+    {
+      name: "Featured",
+      description: "Projects I featured",
+    },
+    {
+      name: "Express",
+      description: "Projects with express",
+    },
+    {
+      name: "MySQL",
+      description: "Projects with MySQL",
+    },
+    {
+      name: "MongoDB",
+      description: "Projects with MongoDB",
+    },
+    {
+      name: "React",
+      description: "Projects with React",
+    },
+  ]);
+
+  const [contactSelected, setContactSelected] = useState(false);
+
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navigation
+        categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+      ></Navigation>
+      <main>
+        {!contactSelected ? (
+          <>
+            <Project currentCategory={currentCategory}></Project>
+          </>
+        ) : (
+          <ContactForm> </ContactForm>
+        )}
+      </main>
     </div>
   );
 }
