@@ -3,7 +3,7 @@ import Modal from "../Modal";
 
 ///import photo from "../../assets/small/commercial/0.jpg";
 // pass in the props and deconstruct out category
-function ProjectList({ category }) {
+function Portfolio({ category }) {
   // Start the app with the modal closed
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentProject, setCurrentProject] = useState();
@@ -31,8 +31,7 @@ function ProjectList({ category }) {
     {
       name: "Digital DB",
       category: "MySQL",
-      description:
-        "This project provides a backend for an ecommerce website.",
+      description: "This project provides a backend for an ecommerce website.",
     },
     {
       name: "Train of Thought",
@@ -106,13 +105,11 @@ function ProjectList({ category }) {
       description:
         "A website allows the user to search for open issues either for an individual user on github, or to search by three popular languages.",
     },
-   
-    
   ]);
-  // select only the current category
-  const currentProjectss = projects.filter(
-    (project) => project.category === category
-  );
+  // // select only the current category
+  // const currentProjects = projects.filter(
+  //   (project) => project.category === category
+  // );
   // We are going to map this new array below to create in index of the
   // photos that match
 
@@ -130,18 +127,10 @@ function ProjectList({ category }) {
         <Modal setCurrentProject={currentProject} onClose={toggleModal} />
       )}
       <div className="flex-row">
-        {/* {currentProjects.map((image, i) => (
-          <img
-            src={require(`../../assets/small/${category}/${i}.jpg`)}
-            alt={image.name}
-            className="img-thumbnail mx-1"
-            onClick={() => toggleModal(image, i)}
-            key={image.name}
-          />
-        ))} */}
+        <h1>Portfolio Page</h1>
       </div>
     </div>
   );
 }
 
-export default ProjectList;
+export default Portfolio;

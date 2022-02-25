@@ -1,57 +1,35 @@
 import React, { useState } from "react";
+import About from "./components/About";
 import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Navigation from "./components/Navigation";
-import Project from "./components/Project";
-//import ProjectList from "./components/Projectlist";
+import Portfolio from "./components/Portfolio";
 
 function App() {
-  const [categories] = useState([
-    {
-      name: "Featured",
-      description: "Projects I featured",
-    },
-    {
-      name: "Express",
-      description: "Projects with express",
-    },
-    {
-      name: "MySQL",
-      description: "Projects with MySQL",
-    },
-    {
-      name: "MongoDB",
-      description: "Projects with MongoDB",
-    },
-    {
-      name: "React",
-      description: "Projects with React",
-    },
-  ]);
-
+  // Start off with about tab selected
+  const [aboutSelected, setAboutSelected] = useState(true);
   const [contactSelected, setContactSelected] = useState(false);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [portfolioSelected, setPortfolioSelected] = useState(false);
+  const [resumeSelected, setResumeSelected] = useState(false);
 
   return (
     <div>
-      <Navigation
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Navigation>
+      <Header
+      // categories={categories}
+      // setCurrentCategory={setCurrentCategory}
+      // currentCategory={currentCategory}
+      // contactSelected={contactSelected}
+      // setContactSelected={setContactSelected}
+      // aboutSelected={aboutSelected}
+      // setAboutSelected={setAboutSelected}
+      ></Header>
+
       <main>
-        {!contactSelected ? (
-          <>
-            <Project currentCategory={currentCategory}></Project>
-          </>
-        ) : (
-          <ContactForm> </ContactForm>
-        )}
+        {aboutSelected && <About></About>}
+        {portfolioSelected && <Portfolio></Portfolio>}
+        {contactSelected && <ContactForm> </ContactForm>}
       </main>
+      <Footer></Footer>
     </div>
   );
 }
