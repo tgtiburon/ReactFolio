@@ -11,16 +11,16 @@
 
 ## Acceptance Criteria
 
-- []    GIVEN a single-page application portfolio for a web developer
+- [x]    GIVEN a single-page application portfolio for a web developer
         WHEN I load the portfolio
         THEN I am presented with a page containing a header, a section for content, and a footer
    
 
-- []    WHEN I view the header
+- [x]    WHEN I view the header
         THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
 
 
-- []    WHEN I view the navigation titles
+- [x]    WHEN I view the navigation titles
         THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
    
 

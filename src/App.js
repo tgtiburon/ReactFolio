@@ -7,27 +7,39 @@ import Portfolio from "./components/Portfolio";
 
 function App() {
   // Start off with about tab selected
-  const [aboutSelected, setAboutSelected] = useState(true);
-  const [contactSelected, setContactSelected] = useState(false);
-  const [portfolioSelected, setPortfolioSelected] = useState(false);
-  const [resumeSelected, setResumeSelected] = useState(false);
+  const [menuItems] = useState([
+    {
+      name: "About",
+    },
+    {
+      name: "Portfolio",
+    },
+    {
+      name: "Contact",
+    },
+    {
+      name: "Resume",
+    },
+  ]);
+  const [currentMenuItem, setCurrentMenuItem] = useState(menuItems[0]);
+  //console.log("MenuItems", currentMenuItem);
+  // if (currentMenuItem.name === "About") {
+  //   console.log("TRUE");
+  // }
 
   return (
     <div>
       <Header
-      // categories={categories}
-      // setCurrentCategory={setCurrentCategory}
-      // currentCategory={currentCategory}
-      // contactSelected={contactSelected}
-      // setContactSelected={setContactSelected}
-      // aboutSelected={aboutSelected}
-      // setAboutSelected={setAboutSelected}
+        menuItems={menuItems}
+        setCurrentMenuItem={setCurrentMenuItem}
+        currentMenuItem={currentMenuItem}
       ></Header>
 
       <main>
-        {aboutSelected && <About></About>}
-        {portfolioSelected && <Portfolio></Portfolio>}
-        {contactSelected && <ContactForm> </ContactForm>}
+        {currentMenuItem.name === "About" && <About></About>}
+        {currentMenuItem.name === "Portfolio" && <Portfolio></Portfolio>}
+        {currentMenuItem.name === "Contact" && <ContactForm> </ContactForm>}
+        {/* {menuItems[3] && <Resume></Resume>} */}
       </main>
       <Footer></Footer>
     </div>

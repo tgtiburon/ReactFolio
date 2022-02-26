@@ -1,19 +1,17 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 function Header(props) {
-  //   const {
-  //     categories = [],
-  //     setCurrentCategory,
-  //     contactSelected,
-  //     aboutSelected,
-  //     currentCategory,
-  //     setContactSelected,
-  //     setAboutSelected,
-  //   } = props;
+  // "Lifting the state to the parent component App.js"
+  const { menuItems = [], setCurrentMenuItem, currentMenuItem } = props;
 
-  //   useEffect(() => {
-  //     document.title = currentCategory.name;
-  //   }, [currentCategory]);
+  useEffect(() => {
+    document.title = currentMenuItem.name;
+  }, [currentMenuItem]);
+  // Which menu item was selected
+  // function menuSelected(menuItem) {
+  //   console.log(menuItem);
+  //   //console.log("menuItem");
+  // }
 
   return (
     <header className="flex-row px-1">
@@ -28,15 +26,22 @@ function Header(props) {
       </h2>
       <nav>
         <ul className="flex-row">
-          <li className={`mx-2`}>About Me</li>
-          <li className={`mx-2`}>Portfolio</li>
-          <li className={`mx-2`}>Contact Me</li>
-          <li className={`mx-2`}>Resume</li>
+          {menuItems.map((menuItem) => (
+            <li
+              className={`mx-2 ${
+                currentMenuItem.name === menuItem.name && "navActive"
+              }`}
+              key={menuItem.name}
+            >
+              <span onClick={() => setCurrentMenuItem(menuItem)}>
+                {menuItem.name}
+              </span>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
   );
-
 }
 
 export default Header;
