@@ -14,21 +14,27 @@ function Header(props) {
   // }
 
   return (
-    <header className="flex-row px-1">
-      <h2>
-        <a data-testid="link" href="/">
-          <span role="img" aria-label="camera">
-            {" "}
-            📸
-          </span>{" "}
-          Tony's Portfolio
+    <header className="header">
+      <div className="">
+        <a
+          className="flex-row justify-center align-center "
+          data-testid="link"
+          href="/"
+        >
+          <img
+            className="nameLogo"
+            src={require(`../../assets/Shark_Logo_Bloody_Text_FINAL.png`)}
+            height="90"
+            width="180"
+          />
+          <h3 className="navText px-2">Portfolio</h3>
         </a>
-      </h2>
+      </div>
       <nav>
-        <ul className="flex-row">
+        <ul className="navText flex-row justify-center">
           {menuItems.map((menuItem) => (
             <li
-              className={`mx-2 ${
+              className={`mx-5 ${
                 currentMenuItem.name === menuItem.name && "navActive"
               }`}
               key={menuItem.name}

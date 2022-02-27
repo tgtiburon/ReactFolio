@@ -23,7 +23,6 @@ function App() {
     },
   ]);
   const [currentMenuItem, setCurrentMenuItem] = useState(menuItems[0]);
-  
 
   return (
     <div>

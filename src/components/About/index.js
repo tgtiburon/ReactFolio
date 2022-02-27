@@ -11,7 +11,7 @@ function About() {
       <img
         src={coverImage}
         //src="../../assets/bubble_framed_pike_pic.png"
-        alt="Tony holding up a large norther pike"
+        alt="Tony holding up a large northern pike"
         height="192"
         width="192"
       />
