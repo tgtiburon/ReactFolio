@@ -12,7 +12,6 @@
 main {
   margin: 0 auto;
   max-width: 96%;
-  /* padding: 50px 30px; */
 }
 
 * {
@@ -21,14 +20,27 @@ main {
 
 header {
   background: var(--color2);
+  width: 102%;
+}
+.pageTitle {
+  font-size: 32px;
+  text-decoration: none;
 }
 .navText {
   color: white;
+  text-decoration: none;
+}
+.navText span:hover {
+  font-weight: Bolder;
 }
 
 .navActive {
-  /* color: var(--secondary); */
   color: var(--color5);
+}
+.projectName {
+  font-size: 30px;
+  font-weight: Bolder;
+  text-shadow: 4px 4px #000000;
 }
 
 nav a:hover {
@@ -52,13 +64,12 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-weight: 600;
+
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
   background: var(--color3);
   color: var(--color5);
-  /* font-family: "Poiret One", cursive; */
 }
 
 a {
@@ -70,32 +81,7 @@ a {
   margin-right: -2px;
 }
 
-button {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: 0.5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--color2);
-  background-color: red;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-button[disabled] {
-  cursor: default;
-  opacity: 0.8;
-}
-
-/* img {
-  max-width: 100%;
-} */
-
+/*========================================================*/
 /* CONTACT FORM STYLING */
 
 form {
@@ -123,6 +109,29 @@ textarea {
   padding: 5px;
 }
 
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--color2);
+  background-color: red;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button[disabled] {
+  cursor: default;
+  opacity: 0.8;
+}
+
+/*========================================================*/
 /* GENERAL FORMATTING FUNCTIONS */
 .container {
   width: 85%;
@@ -209,13 +218,7 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-/* 
-.img-thumbnail {
-  width: auto;
-  height: 300px;
-  margin-bottom: 50px;
-  cursor: pointer;
-} */
+/*========================================================*/
 
 /*Media Query for better mobile responsiveness */
 @media screen and (max-width: 980px) {
@@ -227,8 +230,8 @@ textarea {
 } /*980px breakpoint end */
 @media screen and (max-width: 768px) {
   .projectImage {
-    height: 404px;
-    width: 720px;
+    height: 202px;
+    width: 360px;
   }
 } /*768px breakpoint end */
 

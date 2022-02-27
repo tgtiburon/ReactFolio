@@ -17,7 +17,7 @@ function Header(props) {
     <header className="header">
       <div className="">
         <a
-          className="flex-row justify-center align-center "
+          className="pageTitle flex-row justify-center align-center "
           data-testid="link"
           href="/"
         >
@@ -27,7 +27,7 @@ function Header(props) {
             height="90"
             width="180"
           />
-          <h3 className="navText px-2">Portfolio</h3>
+          <h3 className="navTitle px-2">Portfolio</h3>
         </a>
       </div>
       <nav>

@@ -23,13 +23,10 @@ function Project({ projectInfo }) {
               Deployed Link
             </a>
           </div>
-
-          {/* <span p> {projectInfo.github}</span>
-          <span p> {projectInfo.deployed}</span> */}
           <img
             src={require(`../../assets/project-screen-shots/${projectInfo.screen}`)}
-            height="202"
-            width="360"
+            height="404"
+            width="720"
             alt={projectInfo.name}
             className="projectImage my-2 mx-2"
             key={projectInfo.name}

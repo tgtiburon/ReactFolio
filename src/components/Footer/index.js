@@ -5,6 +5,7 @@ import gitIcon from "../../assets/github_icon.png";
 import linkedIcon from "../../assets/linkedin_icon_bubble.png";
 import mailIcon from "../../assets/mail_icon_bubble.png";
 import phoneIcon from "../../assets/phone_icon_bubble.png";
+import stackOverflow from "../../assets/stackOverflow.png";
 
 function Footer() {
   return (
@@ -50,6 +51,12 @@ function Footer() {
             <a href="https://tgtiburon.github.io/portfolio/">
               <img src={gitIcon} height="30" width="30"></img>
               <span p> Github </span>
+            </a>
+          </div>
+          <div>
+            <a href="https://stackoverflow.com/users/17146519/tgtiburon">
+              <img src={stackOverflow} height="30" width="30"></img>
+              <span p> Stack Overflow </span>
             </a>
           </div>
         </div>
