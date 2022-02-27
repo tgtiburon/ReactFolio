@@ -176,7 +176,7 @@ function Portfolio({}) {
 
   return (
     <div>
-      <div className="flex-row">
+      <div className="flex-row space-evenly">
         {projects.map((projectInfo, i) => (
           <Project projectInfo={projectInfo} />
         ))}

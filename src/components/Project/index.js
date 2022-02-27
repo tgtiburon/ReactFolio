@@ -4,7 +4,7 @@ function Project({ projectInfo }) {
   console.log("ProjectINfo", projectInfo);
   return (
     <div>
-      <div className="flex-row space-evenly">
+      <div className="flex-row">
         <div>
           <p className="projectName  justify-center"> {projectInfo.name}</p>
           <div className="flex-row space-evenly">
@@ -31,7 +31,7 @@ function Project({ projectInfo }) {
             height="202"
             width="360"
             alt={projectInfo.name}
-            className="my-2"
+            className="projectImage my-2 mx-2"
             key={projectInfo.name}
           />
         </div>
