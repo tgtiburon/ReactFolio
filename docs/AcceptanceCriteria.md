@@ -51,11 +51,11 @@
         THEN I receive a notification if I have entered an invalid email address
 
 
-- []    WHEN I am presented with the Resume section
+- [x]    WHEN I am presented with the Resume section
         THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
   
 
-- []    WHEN I view the footer
+- [x]    WHEN I view the footer
         THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
 
@@ -64,98 +64,98 @@
 ## Getting Started:
 
 
-- []    Single `Header` component appears on multiple pages
+- [x]    Single `Header` component appears on multiple pages
 
 - []    Single `Navigation` component within the header that will be used to conditionally render the different sections of your portfolio  
 
-- []    Single `Project` component that will be used multiple times in the Portfolio section   
+- [x]    Single `Project` component that will be used multiple times in the Portfolio section   
             
-- []    Single `Footer` component that appears on multiple pages 
+- [x]    Single `Footer` component that appears on multiple pages 
 
-- []    NOTE: Your contact form can be non-functional until we learn to connect it in the next couple of weeks
+- [x]    NOTE: Your contact form can be non-functional until we learn to connect it in the next couple of weeks
 
 ## Projects
 
-- []    An image of the deployed application (gif of screenshot)
+- [x]    An image of the deployed application (gif of screenshot)
 
-- []    The title of the project
+- [x]    The title of the project
 
-- []    A link to deployed application
+- [x]    A link to deployed application
 
-- []    A link to the gitHub repository
+- [x]    A link to the gitHub repository
 
 
 ## Design
 
-- []   Mobile first design
+- [x]   Mobile first design
 
-- []   Choose a color palette
+- [x]   Choose a color palette
 
-- []   Make sure font size is large enough to read and that the colors don't cause eye strain
+- [x]   Make sure font size is large enough to read and that the colors don't cause eye strain
 
-- []  Consider using animations and React component libraries.(Not part of the grade) 
+- [x]  Consider using animations and React component libraries.(Not part of the grade) 
 
 
 
 
 ## Grading Requirements
 
-- [] This Challenge is graded based on the following criteria:
+- [x] This Challenge is graded based on the following criteria:
 
 
 
 ## Technical Acceptance Criteria: 40%
-- []   Application must use React to render content
+- [x]   Application must use React to render content
 
-- []    Application has a single `Header` component that appears on multiple pages, with a `Navigation` commponent within it that's used to conditionally render About Me, Portfolio, Contact, and Resume sections
+- [x]    Application has a single `Header` component that appears on multiple pages, with a `Navigation` commponent within it that's used to conditionally render About Me, Portfolio, Contact, and Resume sections
 
-- []    Application has a single `Project` component that's used multiple times in the portfolio section.
+- [x]    Application has a single `Project` component that's used multiple times in the portfolio section.
 
-- []  Application has a single `Footer` component that appears on multiple pages.
+- [x]  Application has a single `Footer` component that appears on multiple pages.
 
-- []  Must be deployed to github pages   
+- [x]  Must be deployed to github pages   
 
   
 
 
 ## Deployment: 32%
 
-- []    Application deployed at live URL
+- [x]    Application deployed at live URL
 
-- []    Application loads with no errors
+- [x]    Application loads with no errors
 
-- []    Application Github URL Submitted
+- [x]    Application Github URL Submitted
 
-- []    Github Repository contains application code
+- [x]    Github Repository contains application code
 
 
 
 ## Application Quality: 15%
-- []    User experience is intuitive and easy to navigate.
+- [x]    User experience is intuitive and easy to navigate.
 
-- []   User interface style is clean on polished
+- [x]   User interface style is clean on polished
 
-- []    Application uses a color scheme other than default bootstrap
+- [x]    Application uses a color scheme other than default bootstrap
 
 
 
 ## Repository Quality: 13%
-- []    Repository has a unique name.
+- [x]    Repository has a unique name.
 
-- []    Repository follows best practices for file structure and naming conventions.
+- [x]    Repository follows best practices for file structure and naming conventions.
 
-- []    Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+- [x]    Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
 
-- []    Repository contains multiple descriptive commit messages.
+- [x]    Repository contains multiple descriptive commit messages.
 
-- []    Repository contains quality README file with description, screenshot, and link to deployed application.
+- [x]    Repository contains quality README file with description, screenshot, and link to deployed application.
 
 
 
 
 ## How to Submit the Challenge
-- []    You are required to submit BOTH of the following for review:
+- [x]    You are required to submit BOTH of the following for review:
 
-- []    The URL of the functional deployed application
+- [x]    The URL of the functional deployed application
 
-- []    The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+- [x]    The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
