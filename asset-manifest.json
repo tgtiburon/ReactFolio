@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/reactfolio/static/css/main.7c887372.css",
+    "main.js": "/reactfolio/static/js/main.1e421bc0.js",
+    "static/js/787.512dd3f2.chunk.js": "/reactfolio/static/js/787.512dd3f2.chunk.js",
+    "static/media/horiseon.png": "/reactfolio/static/media/horiseon.eee6fa5ceae322478188.png",
+    "static/media/bubble_framed_pike_pic.png": "/reactfolio/static/media/bubble_framed_pike_pic.34bfb78c4e99b4a23c68.png",
+    "static/media/linkedin_icon_bubble.png": "/reactfolio/static/media/linkedin_icon_bubble.ba90c845f19fbf729b76.png",
+    "static/media/phone_icon_bubble.png": "/reactfolio/static/media/phone_icon_bubble.70b27ee66dd509bc0854.png",
+    "static/media/github_icon.png": "/reactfolio/static/media/github_icon.641364f949f8910d10e0.png",
+    "static/media/mail_icon_bubble.png": "/reactfolio/static/media/mail_icon_bubble.d3e45d45934ed4594dc1.png",
+    "static/media/critique-code.PNG": "/reactfolio/static/media/critique-code.a15a07dfa6cb89c447f1.PNG",
+    "static/media/Weather_Watcher.PNG": "/reactfolio/static/media/Weather_Watcher.7ecd748bf10cc0e58643.PNG",
+    "static/media/Web_Security.PNG": "/reactfolio/static/media/Web_Security.50b4731584922fba7589.PNG",
+    "static/media/nerdnews.PNG": "/reactfolio/static/media/nerdnews.013e3116400436aab543.PNG",
+    "static/media/Shark_Logo_Bloody_Text_FINAL.png": "/reactfolio/static/media/Shark_Logo_Bloody_Text_FINAL.961bf1b244ef10922890.png",
+    "static/media/digital_db.PNG": "/reactfolio/static/media/digital_db.882c8bd7e69c7e7bc137.PNG",
+    "static/media/trainofthought.PNG": "/reactfolio/static/media/trainofthought.0d5b2a2bed8a012f2293.PNG",
+    "static/media/git-it-done-screen.PNG": "/reactfolio/static/media/git-it-done-screen.f1c8de0a80a4b8f1a437.PNG",
+    "static/media/team_tracker_scrn.png": "/reactfolio/static/media/team_tracker_scrn.90aad1fca422087ae976.png",
+    "static/media/Work_day_Scheduler_scrn.PNG": "/reactfolio/static/media/Work_day_Scheduler_scrn.87cc0cb233969fbfa7f2.PNG",
+    "static/media/WebAPISCRN.PNG": "/reactfolio/static/media/WebAPISCRN.d5f73883cdd66354ba34.PNG",
+    "static/media/budget_anywhere.PNG": "/reactfolio/static/media/budget_anywhere.96f1cac168f19d2a8326.PNG",
+    "static/media/learn_regex.PNG": "/reactfolio/static/media/learn_regex.5569e5d3b4c07f25336a.PNG",
+    "static/media/staff_examiner.PNG": "/reactfolio/static/media/staff_examiner.076a2c7412b06ff3540b.PNG",
+    "static/media/Password.PNG": "/reactfolio/static/media/Password.64219f829de41a4da3a9.PNG",
+    "static/media/ReadMe_Architect.PNG": "/reactfolio/static/media/ReadMe_Architect.86444a510bb3000f8610.PNG",
+    "static/media/idea_cache_scn2.png": "/reactfolio/static/media/idea_cache_scn2.023e98e0ff64e02ba191.png",
+    "static/media/stackOverflow.png": "/reactfolio/static/media/stackOverflow.21f82a567d8bd9add06e.png",
+    "index.html": "/reactfolio/index.html",
+    "main.7c887372.css.map": "/reactfolio/static/css/main.7c887372.css.map",
+    "main.1e421bc0.js.map": "/reactfolio/static/js/main.1e421bc0.js.map",
+    "787.512dd3f2.chunk.js.map": "/reactfolio/static/js/787.512dd3f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c887372.css",
+    "static/js/main.1e421bc0.js"
+  ]
+}
