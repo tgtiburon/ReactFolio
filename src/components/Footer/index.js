@@ -1,6 +1,5 @@
 import React from "react";
-//import coverImage from "../../assets/cover/cover-image.jpg";
-//import coverImage from "../../assets/bubble_framed_pike_pic.png";
+// Import images
 import gitIcon from "../../assets/github_icon.png";
 import linkedIcon from "../../assets/linkedin_icon_bubble.png";
 import mailIcon from "../../assets/mail_icon_bubble.png";
@@ -12,26 +11,20 @@ function Footer() {
     <section id="contact-container">
       <div>
         <div className="flex-row space-evenly">
-          <h4>Contact Me:</h4>
+          <h1>Contact Me:</h1>
         </div>
 
-        <div class="contact flex-row space-evenly">
+        <div className="contact flex-row space-evenly">
           <div>
             <a href="tel:+1-517-599-1138">
-              <img
-                //src="../../assets/images/phone_icon_bubble.png"
-                src={phoneIcon}
-                height="30"
-                width="30"
-              />
+              <img src={phoneIcon} height="30" width="30" alt="" />
               <span p>517-599-1138</span>
             </a>
           </div>
 
           <div>
             <a href="mailto:tg.tiburon@gmail.com">
-              {" "}
-              <img src={mailIcon} height="30" width="30" />
+              <img src={mailIcon} height="30" width="30" alt="" />
               <span p> tg.tiburon@gmail.com </span>
             </a>
           </div>
@@ -42,20 +35,28 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={linkedIcon} height="30" width="30" />
+              <img src={linkedIcon} height="30" width="30" alt="" />
               <span p> Linkedin </span>
             </a>
           </div>
 
           <div>
-            <a href="https://tgtiburon.github.io/portfolio/">
-              <img src={gitIcon} height="30" width="30"></img>
+            <a
+              href="https://github.com/tgtiburon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={gitIcon} height="30" width="30" alt=""></img>
               <span p> Github </span>
             </a>
           </div>
           <div>
-            <a href="https://stackoverflow.com/users/17146519/tgtiburon">
-              <img src={stackOverflow} height="30" width="30"></img>
+            <a
+              href="https://stackoverflow.com/users/17146519/tgtiburon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={stackOverflow} height="30" width="30" alt=""></img>
               <span p> Stack Overflow </span>
             </a>
           </div>

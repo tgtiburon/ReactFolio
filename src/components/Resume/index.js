@@ -1,45 +1,49 @@
 import React from "react";
-//import coverImage from "../../assets/cover/cover-image.jpg";
-// Images
-//import coverImage from "../../assets/bubble_framed_pike_pic.png";
 
 function Resume() {
   return (
     <div className="flex-column">
       <div className="my-2">
-        <a href="https://docs.google.com/document/d/1BzxUzS_MxynjQ-_6phnNx_YTPQBjXK9w/edit?usp=sharing&amp;ouid=107744458098251183433&amp;rtpof=true&amp;sd=true">
+        <a
+          className="dlText"
+          href="https://drive.google.com/file/d/1-DN7nXImmoc8j5KA_toGvw4lVGEjRvZ4/view?usp=sharing"
+          //href="/../../assets/TonyGendreau2022Resume.pdf"
+
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+        >
           Download my Resume!
         </a>
       </div>
 
       <div className="frontend">
-        <p>Front End Skills</p>
-        <ul className="flex-column">
-          <il>ReactJS</il>
-          <il>HTML</il>
-          <il>CSS</il>
-          <il>Bootstrap</il>
-          <il>JQUERY</il>
-          <il>JavaScript</il>
-          <il>SEO</il>
-          <il>Git</il>
-          <il>Github</il>
-          <il>WPO</il>
+        <p className="skillTitle">Front End Skills</p>
+        <ul className="flex-column frontEndSkills">
+          <li>ReactJS</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>JQUERY</li>
+          <li>JavaScript</li>
+          <li>SEO</li>
+          <li>Git</li>
+          <li>Github</li>
+          <li>WPO</li>
         </ul>
       </div>
       <div className="backend"></div>
-      <p>Back End Skills</p>
-      <ul className="flex-column">
-        <il>NODE</il>
-        <il>Express</il>
-        <il>MySQL</il>
-        <il>Sequelize</il>
-        <il>MongoDB</il>
-        <il>Mongoose</il>
-        <il>RESTful APIs</il>
-        <il>GraphQL</il>
-        <il>Apollo</il>
-        <il></il>
+      <p className="skillTitle">Back End Skills</p>
+      <ul className="flex-column backEndSkills">
+        <li>NODE</li>
+        <li>Express</li>
+        <li>MySQL</li>
+        <li>Sequelize</li>
+        <li>MongoDB</li>
+        <li>Mongoose</li>
+        <li>RESTful APIs</li>
+        <li>GraphQL</li>
+        <li>Apollo</li>
       </ul>
     </div>
   );

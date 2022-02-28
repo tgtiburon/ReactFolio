@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Project({ projectInfo }) {
-  console.log("ProjectINfo", projectInfo);
+ // console.log("ProjectINfo", projectInfo);
   return (
     <div>
       <div className="flex-row">
@@ -38,19 +38,3 @@ function Project({ projectInfo }) {
 }
 
 export default Project;
-
-/*
-  <a
-              href="https://www.linkedin.com/in/tony-gendreau-503309223/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={linkedIcon} height="30" width="30" />
-              <span p> Linkedin </span>
-            </a>
-
-
-
-
-
-*/

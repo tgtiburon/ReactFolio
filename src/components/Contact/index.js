@@ -11,28 +11,26 @@ function ContactForm() {
     message: "",
   });
 
-  // Error catching
+  // Set up the error catching
   const [errorMessage, setErrorMessage] = useState("");
 
-  //JSX
-  // destructure formState
+  // Deconstruct the formState
   const { name, email, message } = formState;
 
-  // Change in the html
-
+  // Check for changes in the form
   function handleChange(e) {
     // validate email
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
-      console.log("isValid ", isValid);
-      //isValid conditional
+      //console.log("isValid ", isValid);
+      //Email not valid
       if (!isValid) {
         setErrorMessage("Your email is invalid.");
       } else {
         setErrorMessage("");
       }
     } else {
-      // Either name or message are empty
+      //Problem with message or name
       if (!e.target.value.length) {
         setErrorMessage(`${e.target.name} is required.`);
       } else {
@@ -45,28 +43,23 @@ function ContactForm() {
     // [e.target.name]  lets us DRY, so we can reuse setFormState
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
-      console.log("State updated!");
+     // console.log("State updated!");
     }
-
-    //  console.log("e.target", e.target.name);
-
-    // console.log("errorMessage", errorMessage);
   }
   // placed outside the handleChange function because setFormState is asynchronous.
-  //console.log(formState);
-
+  // We will update this later once we learn how
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(formState);
+    //console.log(formState);
   }
 
   // Have to use htmlFor because it is a keyword reserved for javascript.
   // same with for
   return (
-    <section>
+    <section className="flex-column">
       <h1>Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
+      <form id="contact-form" className="flex-column" onSubmit={handleSubmit}>
+        <div className="flex-column">
           <label htmlFor="name">Name:</label>
           <input
             type="text"
@@ -76,7 +69,7 @@ function ContactForm() {
           />
         </div>
 
-        <div>
+        <div className="flex-column">
           <label htmlFor="email">Email address:</label>
           <input
             type="email"
@@ -100,7 +93,9 @@ function ContactForm() {
             </div>
           )}
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" className="my-2">
+          Submit
+        </button>
       </form>
     </section>
   );

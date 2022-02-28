@@ -1,21 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 
 function Header(props) {
   // "Lifting the state to the parent component App.js"
   const { menuItems = [], setCurrentMenuItem, currentMenuItem } = props;
 
+  // Change the title of the page
   useEffect(() => {
     document.title = currentMenuItem.name;
   }, [currentMenuItem]);
-  // Which menu item was selected
-  // function menuSelected(menuItem) {
-  //   console.log(menuItem);
-  //   //console.log("menuItem");
-  // }
 
   return (
     <header className="header">
-      <div className="">
+      <div>
         <a
           className="pageTitle flex-row justify-center align-center "
           data-testid="link"
@@ -26,6 +22,7 @@ function Header(props) {
             src={require(`../../assets/Shark_Logo_Bloody_Text_FINAL.png`)}
             height="90"
             width="180"
+            alt=""
           />
           <h3 className="navTitle px-2">Portfolio</h3>
         </a>

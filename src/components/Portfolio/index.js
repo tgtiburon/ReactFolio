@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-//import Modal from "../Modal";
+
 import Project from "../Project";
 
-function Portfolio({}) {
+function Portfolio() {
   const [projects] = useState([
     {
       // 1
@@ -177,7 +177,7 @@ function Portfolio({}) {
   return (
     <div>
       <div className="flex-row space-evenly">
-        {projects.map((projectInfo, i) => (
+        {projects.map((projectInfo) => (
           <Project projectInfo={projectInfo} />
         ))}
       </div>

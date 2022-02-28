@@ -6,7 +6,7 @@ export function validateEmail(email) {
 
   const validEmail = regexp.test(String(email).toLowerCase());
 
-  console.log("Valid Email: ", validEmail);
+  //console.log("Valid Email: ", validEmail);
 
   return validEmail;
 }
