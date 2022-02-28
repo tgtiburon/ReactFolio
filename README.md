@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Reactfolio
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  ![License](https://img.shields.io/github/license/tgtiburon/Reactfolio?style=flat-square)
+  
+  ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white) 
+  ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white) 
+  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) 
+## Description
 
-## Available Scripts
+This is a re-write of my portfolio, done in REACT!
 
-In the project directory, you can run:
+---
+  ## Table of Contents
 
-### `npm start`
+  [Features](#features)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  [Screenshot](#screenshot)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  [Installation](#installation)
+    
+  [License](#license)
 
-### `npm test`
+  [Questions](#questions)
+  
+  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+      1. React 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+      2. Responsive design 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+      3. Fast 
+---
 
-### `npm run eject`
+## Screenshot 
+  ![](reactfolio.PNG)
+  
+  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  ---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  ## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+      1. Go to the website! 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  ---
+  ## License 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  &emsp; ![License](https://img.shields.io/github/license/tgtiburon/Reactfolio?style=flat-square)
 
-### Code Splitting
+      To read about the license of this project click the link below.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  &emsp;[License](https://github.com/tgtiburon/Reactfolio/blob/main/LICENSE) 
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+---
+## Questions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If you have any questions about this project feel free to email me at <tg.tiburon@gmail.com>.  
 
-### Advanced Configuration
+To see the rest of my portfolio, visit [Github](https://github.com/tgtiburon).
+![](./images/GitHub-Mark-32px.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Below is a graphic displaying my most used languages on github.
 
-### Deployment
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tgtiburon)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This Readme file was created with Readme Architect by Tony Gendreau &copy;
