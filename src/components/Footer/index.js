@@ -7,6 +7,7 @@ import phoneIcon from "../../assets/phone_icon_bubble.png";
 import stackOverflow from "../../assets/stackOverflow.png";
 
 function Footer() {
+  // Return footer HTML
   return (
     <section id="contact-container">
       <div>
@@ -18,14 +19,14 @@ function Footer() {
           <div>
             <a href="tel:+1-517-599-1138">
               <img src={phoneIcon} height="30" width="30" alt="" />
-              <span p>517-599-1138</span>
+              <span>517-599-1138</span>
             </a>
           </div>
 
           <div>
             <a href="mailto:tg.tiburon@gmail.com">
               <img src={mailIcon} height="30" width="30" alt="" />
-              <span p> tg.tiburon@gmail.com </span>
+              <span> tg.tiburon@gmail.com </span>
             </a>
           </div>
 
@@ -36,7 +37,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img src={linkedIcon} height="30" width="30" alt="" />
-              <span p> Linkedin </span>
+              <span> Linkedin </span>
             </a>
           </div>
 
@@ -47,7 +48,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img src={gitIcon} height="30" width="30" alt=""></img>
-              <span p> Github </span>
+              <span> Github </span>
             </a>
           </div>
           <div>
@@ -57,7 +58,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img src={stackOverflow} height="30" width="30" alt=""></img>
-              <span p> Stack Overflow </span>
+              <span> Stack Overflow </span>
             </a>
           </div>
         </div>
@@ -67,3 +68,4 @@ function Footer() {
 }
 
 export default Footer;
+

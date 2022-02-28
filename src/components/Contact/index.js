@@ -55,6 +55,7 @@ function ContactForm() {
 
   // Have to use htmlFor because it is a keyword reserved for javascript.
   // same with for
+  // Return ContactForm html
   return (
     <section className="flex-column">
       <h1>Contact me</h1>

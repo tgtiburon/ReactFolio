@@ -2,7 +2,9 @@ import React from "react";
 
 import coverImage from "../../assets/bubble_framed_pike_pic.png";
 
+
 function About() {
+  // Return about HTML
   return (
     <section className="my-5">
       <h1 id="about">Who am I?</h1>
