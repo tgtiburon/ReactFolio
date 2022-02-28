@@ -1,6 +1,7 @@
 import React from "react";
 
 function Resume() {
+  // Return Resume HTML
   return (
     <div className="flex-column">
       <div className="my-2">

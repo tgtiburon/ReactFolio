@@ -8,6 +8,7 @@ import Resume from "./components/Resume";
 
 function App() {
   // Start off with about tab selected
+  // Going to pass menuItems all the way to Navigation component
   const [menuItems] = useState([
     {
       name: "About",
@@ -44,3 +45,5 @@ function App() {
 }
 
 export default App;
+
+

@@ -174,11 +174,14 @@ function Portfolio() {
     },
   ]);
 
+  // Return Portfolio HTML
+  // Map each project onto the page.
+  // Need to assign a key to each project for react to be happy
   return (
     <div>
       <div className="flex-row space-evenly">
         {projects.map((projectInfo) => (
-          <Project projectInfo={projectInfo} />
+          <Project projectInfo={projectInfo} key={projectInfo.name} />
         ))}
       </div>
     </div>

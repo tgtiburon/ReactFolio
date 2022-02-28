@@ -1,7 +1,7 @@
 import React from "react";
 
 function Project({ projectInfo }) {
- // console.log("ProjectINfo", projectInfo);
+  // Return the individual project information
   return (
     <div>
       <div className="flex-row">
@@ -29,7 +29,6 @@ function Project({ projectInfo }) {
             width="720"
             alt={projectInfo.name}
             className="projectImage my-2 mx-2"
-            key={projectInfo.name}
           />
         </div>
       </div>
