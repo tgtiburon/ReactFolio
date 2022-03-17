@@ -16,6 +16,16 @@ function Portfolio() {
     },
     {
       // 2
+      name: "Slay the Market",
+      github: "https://github.com/Sloansta/slay-the-market",
+      deployed: "https://tgtiburon-slay-the-market.herokuapp.com/",
+      category: "React",
+      screen: "slay-the-market.PNG",
+      description:
+        "A deck building game where you gather stocks to help you survive fighting in randomly generated dungeon! You will fight enemies from around the internet and if you are strong enough you will fight the boss to win the game. This project demonstrates our ability to create a full stack web app using some of the most useful tools currently available. Including: React, graphql, MongoDB, Mongoose, and finnhub to pull realtime stock data.",
+    },
+    {
+      // 2
       name: "Budget Anywhere",
       github: "https://github.com/tgtiburon/budget_anywhere",
       deployed: "https://tgtiburon-budget-anywhere.herokuapp.com/",
