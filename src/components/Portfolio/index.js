@@ -25,7 +25,7 @@ function Portfolio() {
         "A deck building game where you gather stocks to help you survive fighting in randomly generated dungeon! You will fight enemies from around the internet and if you are strong enough you will fight the boss to win the game. This project demonstrates our ability to create a full stack web app using some of the most useful tools currently available. Including: React, graphql, MongoDB, Mongoose, and finnhub to pull realtime stock data.",
     },
     {
-      // 2
+      // 3
       name: "Budget Anywhere",
       github: "https://github.com/tgtiburon/budget_anywhere",
       deployed: "https://tgtiburon-budget-anywhere.herokuapp.com/",
@@ -35,7 +35,7 @@ function Portfolio() {
         "This is both a website and a PWA (Progressive Web App) which allows the user to track their budget. This app integrates the ability to do transactions when you are connected with the internet, but also when you are offline. It utilizes a service worker and IndexedDb to allow for this offline functionality. In addition, you can install this app on your mobile device or desktop by clicking the symbol in the address bar.",
     },
     {
-      // 3
+      // 4
       name: "Nerd News",
       github: "https://github.com/tgtiburon/NerdNews",
       deployed: "https://tgtiburon-nerdnews.herokuapp.com/",
@@ -45,7 +45,7 @@ function Portfolio() {
         "This app is designed to be used as a blogging site.  It allows for users to create accounts and then write their own posts, as well as comment on other's posts.",
     },
     {
-      // 4
+      // 5
       name: "Idea Cache",
       github: "https://github.com/tgtiburon/idea_cache",
       deployed: "https://idea-cache-tgtiburon.herokuapp.com/",
@@ -55,7 +55,7 @@ function Portfolio() {
         "Idea Cache allows the user to store their ideas on an express server.  It demonstrates the use of node.js, express server, as well as overall quality programing practices.",
     },
     {
-      // 5
+      // 6
       name: "Web Security",
       github: "https://github.com/tgtiburon/Web_Security",
       deployed: "https://tgtiburon.github.io/Web_Security/",
@@ -66,7 +66,7 @@ function Portfolio() {
     },
 
     {
-      // 6
+      // 7
       name: "Weather Watcher",
       github: "https://github.com/tgtiburon/Weather_Watcher",
       deployed: "https://tgtiburon.github.io/Weather_Watcher/",
@@ -76,7 +76,7 @@ function Portfolio() {
         "A weather website that lets the user search for any city in the world's weather.  It also stores the last 8 searches to make rescanning your favorite cities easier.",
     },
     {
-      //7
+      //8
       name: "Digital DB",
       github: "https://github.com/tgtiburon/budget_anywhere",
       deployed: "https://tgtiburon-budget-anywhere.herokuapp.com/",
@@ -85,6 +85,7 @@ function Portfolio() {
       description: "This project provides a backend for an e-commerce website.",
     },
     {
+      //9
       name: "Readme Architect",
       github: "https://github.com/tgtiburon/ReadME_Architect",
       deployed:
@@ -95,6 +96,7 @@ function Portfolio() {
         "This application allows the user to create a professional Readme markdown file for any type of project. ",
     },
     {
+      //10
       name: "Learn Regex",
       github:
         "https://gist.github.com/tgtiburon/6e6039ae8d8994344a1f89caf141f4a9",
@@ -107,6 +109,7 @@ function Portfolio() {
     },
 
     {
+      // 11
       name: "Train of Thought",
       github: "https://github.com/tgtiburon/train-of-thought",
       deployed: "https://watch.screencastify.com/v/FfuMSsactjQknrvWWpu0",
@@ -117,6 +120,7 @@ function Portfolio() {
     },
 
     {
+      //12
       name: "Work Day Scheduler",
       github: "https://github.com/tgtiburon/Work_Day_Scheduler",
       deployed: "https://tgtiburon.github.io/Work_Day_Scheduler/",
@@ -127,6 +131,7 @@ function Portfolio() {
     },
 
     {
+      //13
       name: "Staff Examiner",
       github: "https://github.com/tgtiburon/Staff_Examiner",
       deployed:
@@ -137,6 +142,7 @@ function Portfolio() {
         "This project allows a small company to use a MySQL Database to keep track of their staff.  It uses MySQL2, Inquirer, and Console.table to function.  It demonstrates the management of a Database from setting up of the db, its schema, and its seeding.",
     },
     {
+      //14
       name: "Team Tracker",
       github: "https://github.com/tgtiburon/Team_Tracker",
       deployed:
@@ -147,6 +153,7 @@ function Portfolio() {
         "Team tracker is a node.js  command-line application that will take in input and generate cards for each team member on a development team.  I designed this app using an Employee class from which Manager, Engineer, and Intern classes inherit.  These classes have both properties and methods.  Each employee card lists the employee ID and their email.  The email is clickable and will open  your email app when clicked.  Depending on the job role it also displays different information.  The manager displays his/her office number.  The engineers also display a clickable link that will take you to their github page in another tab. And lastly interns display the school that they are attending.",
     },
     {
+      //15
       name: "Password Generator",
       github: "https://github.com/tgtiburon/Password_Generator",
       deployed: "https://tgtiburon.github.io/Password_Generator/",
@@ -156,6 +163,7 @@ function Portfolio() {
         "A website that offers to create a custom password for the user.",
     },
     {
+      //16
       name: "Challenge-1",
       github: "https://github.com/tgtiburon/challenge-1",
       deployed: "https://tgtiburon.github.io/challenge-1/",
@@ -165,6 +173,7 @@ function Portfolio() {
         "I was given the task of taking an index.html and a style.css which created a functional website for a company called Horiseon. The website was pleasing to look at but was lacking in how the html and css was structured for both readability and for accessibity. I replaced many of the non-semantic elements with semantic ones and added other elements to make the website more accessible for users who would be using a reader to access the site. In addition to this I reorganized the html and css to be in a more logical order as well as be more efficient by consolodating classes that were reusing code.",
     },
     {
+      //17
       name: "Git-it-Done",
       github: "https://github.com/tgtiburon/git-it-done",
       deployed: "https://tgtiburon.github.io/git-it-done/",
@@ -174,6 +183,7 @@ function Portfolio() {
         "A website allows the user to search for open issues either for an individual user on github, or to search by three popular languages.",
     },
     {
+      //18
       name: "Web-APIs-Challenge-Code-Quiz",
       github: "https://github.com/tgtiburon/Web-APIs-Challenge-Code-Quiz",
       deployed: "https://tgtiburon.github.io/Web-APIs-Challenge-Code-Quiz/",
