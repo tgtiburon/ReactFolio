@@ -43,7 +43,7 @@ function ContactForm() {
     // [e.target.name]  lets us DRY, so we can reuse setFormState
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
-     // console.log("State updated!");
+      // console.log("State updated!");
     }
   }
   // placed outside the handleChange function because setFormState is asynchronous.
@@ -58,7 +58,10 @@ function ContactForm() {
   // Return ContactForm html
   return (
     <section className="flex-column">
-      <h1>Contact me</h1>
+      <h1>
+        Contact me -- Please use another method as I currently do not have a
+        server to store this data.
+      </h1>
       <form id="contact-form" className="flex-column" onSubmit={handleSubmit}>
         <div className="flex-column">
           <label htmlFor="name">Name:</label>

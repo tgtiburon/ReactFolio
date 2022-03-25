@@ -8,8 +8,7 @@ function Resume() {
         <a
           className="dlText"
           href="https://drive.google.com/file/d/1-DN7nXImmoc8j5KA_toGvw4lVGEjRvZ4/view?usp=sharing"
-          //href="/../../assets/TonyGendreau2022Resume.pdf"
-
+          //href="../../assets/TonyGendreau2022Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           download

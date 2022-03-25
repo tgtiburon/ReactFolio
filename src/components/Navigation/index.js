@@ -8,16 +8,15 @@ function Navigation(props) {
     currentMenuItem,
   } = props.headerProps;
 
- 
   //console.log("props from Nav = ", props);
   //console.log("menuitems", props.headerProps.menuItems);
- // console.log("setCurrentMenuItem", props.headerProps.setCurrentMenuItem);
- // console.log("currentMenuItem", props.headerProps.currentMenuItem);
+  // console.log("setCurrentMenuItem", props.headerProps.setCurrentMenuItem);
+  // console.log("currentMenuItem", props.headerProps.currentMenuItem);
 
   //Change the title of the page
-    useEffect(() => {
-      document.title = currentMenuItem.name;
-    }, [currentMenuItem]);
+  useEffect(() => {
+    document.title = currentMenuItem.name;
+  }, [currentMenuItem]);
 
   return (
     <div className="header">
@@ -25,7 +24,7 @@ function Navigation(props) {
         <a
           className="pageTitle flex-row justify-center align-center "
           data-testid="link"
-          href="/"
+          href="/reactfolio/"
         >
           <img
             className="nameLogo"
