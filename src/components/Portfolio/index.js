@@ -8,7 +8,7 @@ function Portfolio() {
       // 1
       name: "Critique Code",
       github: "https://github.com/tgtiburon/budget_anywhere",
-      deployed: "https://tgtiburon-budget-anywhere.herokuapp.com/",
+      deployed: "https://critique-code.herokuapp.com/",
       category: "MySQL",
       screen: "critique-code.PNG",
       description:
@@ -78,8 +78,8 @@ function Portfolio() {
     {
       //8
       name: "Digital DB",
-      github: "https://github.com/tgtiburon/budget_anywhere",
-      deployed: "https://tgtiburon-budget-anywhere.herokuapp.com/",
+      github: "https://github.com/tgtiburon/Digital_DB",
+      deployed: "https://watch.screencastify.com/v/J5yaNUPIoCjH1iwS0yFf",
       category: "MySQL",
       screen: "digital_db.PNG",
       description: "This project provides a backend for an e-commerce website.",
